@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(180deg, #DBE6F6, #C5796D);
+
+}
+
+.root-div{
+    height: 100%;
+    background: linear-gradient(119deg, #d8031c, #b4d2ff);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.input-div{
+    padding: 10px;
+    background: linear-gradient(180deg, #DBE6F6, #C5796D);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.input-div input, .input-div button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+}
+
+.img-div{
+    display: flex;
+}
+
+.img-div img{
+    width: 250px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+ul {
+    list-style: none;
+  }
+
+
+.appearance{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    line-height: 20px;
+}
+
+.appearance li {
+    margin: 5px;
+}
+
+.biography li, .connection li , .PowerStats li{
+    margin: 5px;
+    padding-left: 20px;
+}
+
+h3{
+    margin: 5px;
+}
+
+.error-div{
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+
+.title-div{
+    margin: 20px;
+}
+  
+@media (max-width: 470px) {
+    .img-div img{
+        width: 180px;
+        padding-right: 0px;
+    }
+}
